@@ -26,7 +26,7 @@ Form diisi dengan data mahasiswa baru: NIM, Nama, Email (TextBox) serta Jurusan 
 
 ### 3. Berhasil Menambahkan Data (CREATE)
 
-![Data berhasil ditambahkan](docs/screenshots/03-tambah-data.png)
+<img width="1437" height="167" alt="image" src="https://github.com/user-attachments/assets/47eb6384-ff69-4e35-84b4-53791b25b6b6" />
 
 Setelah tombol **Simpan** ditekan, data dikirim ke database melalui `StudentRepository.Insert()`. Tabel dimuat ulang sehingga data baru muncul di baris paling atas, angka pada panel statistik bertambah, dan form otomatis dikosongkan.
 
