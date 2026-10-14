@@ -1,33 +1,12 @@
 # Student Management System
 
-Aplikasi desktop berbasis **WPF (.NET 8)** untuk mengelola data mahasiswa dengan arsitektur **MVVM**, **Data Binding**, dan database **SQL Server LocalDB** yang diakses melalui **ADO.NET**.
 
 | | |
 |---|---|
-| Nama | _(isi nama Anda)_ |
-| NIM | _(isi NIM Anda)_ |
-| Mata Kuliah | _(isi mata kuliah)_ |
+| Nama | Al Jad Kaukabudduri Hardianto |
+| NIM | 5025241248 |
+| Kelas | PBKK C |
 
-## Teknologi
-
-| Layer | Teknologi |
-|---|---|
-| Bahasa | C# |
-| Framework | .NET 8 WPF |
-| UI | XAML |
-| Arsitektur | MVVM |
-| Database | SQL Server LocalDB (`StudentDB`) |
-| Akses Data | ADO.NET (`Microsoft.Data.SqlClient`) |
-| IDE | Visual Studio 2022 |
-
-## Fitur Utama
-
-- Input data mahasiswa (NIM, Nama, Jurusan, Gender, Email)
-- Menampilkan data mahasiswa dalam tabel (DataGrid)
-- Edit/Update dan Delete data
-- Pencarian berdasarkan NIM, Nama, atau Jurusan
-- Kartu statistik (total mahasiswa, per jurusan, per gender)
-- Reset form dan validasi input
 
 ---
 
