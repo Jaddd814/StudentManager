@@ -32,15 +32,15 @@ Setelah tombol **Simpan** ditekan, data dikirim ke database melalui `StudentRepo
 
 ### 4. Memilih Data untuk Diubah (EDIT)
 
-![Memilih data](docs/screenshots/04-pilih-data.png)
+<img width="1477" height="925" alt="image" src="https://github.com/user-attachments/assets/d52fcff3-b8a3-4b4a-a78b-8ccf24e90ae2" />
 
 Saat sebuah baris pada tabel diklik, data baris tersebut otomatis terisi ke dalam form. Hal ini terjadi karena `SelectedItem` DataGrid terhubung dua arah dengan `SelectedStudent` di ViewModel.
 
 ### 5. Berhasil Mengubah Data (UPDATE)
 
-![Data berhasil diubah](docs/screenshots/05-update-data.png)
+<img width="1433" height="153" alt="image" src="https://github.com/user-attachments/assets/1dd54240-3470-40d1-86d6-bf6e47f8b951" />
 
-Salah satu field (misalnya Nama atau Email) diubah, lalu tombol **Simpan** ditekan. Karena `Id` data tidak bernilai 0, ViewModel memanggil `StudentRepository.Update()`. Tabel menampilkan data yang sudah diperbarui.
+Contoh Email Rina diubah menjadi rina01@gmail.com, lalu tombol **Simpan** ditekan. Karena `Id` data tidak bernilai 0, ViewModel memanggil `StudentRepository.Update()`. Tabel menampilkan data yang sudah diperbarui.
 
 ### 6. Berhasil Menghapus Data (DELETE)
 
