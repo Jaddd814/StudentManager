@@ -16,7 +16,7 @@
 
 <img width="1481" height="926" alt="image" src="https://github.com/user-attachments/assets/59561143-2f40-4873-b339-4bfac78deb63" />  
 
-Tampilan saat aplikasi pertama kali dijalankan. Data sampel dari tabel `Students` dimuat dari database dan ditampilkan pada DataGrid. Panel **Informasi** di sisi kanan langsung menampilkan statistik awal: total mahasiswa, jumlah per jurusan, dan jumlah per gender. Form input di sebelah kiri masih kosong dan siap digunakan.
+Tampilan saat aplikasi pertama kali dijalankan. Data sampel dari tabel `Students` dimuat dari database dan ditampilkan pada DataGrid. Panel **Informasi** di sisi kanan langsung menampilkan statistik awal: total mahasiswa, jumlah per jurusan, dan jumlah per gender.
 
 ### 2. Form Input Data Mahasiswa
 
