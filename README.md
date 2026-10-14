@@ -44,37 +44,33 @@ Contoh Email Rina diubah menjadi rina01@gmail.com, lalu tombol **Simpan** diteka
 
 ### 6. Berhasil Menghapus Data (DELETE)
 
-![Data berhasil dihapus](docs/screenshots/06-hapus-data.png)
+<img width="1477" height="927" alt="image" src="https://github.com/user-attachments/assets/8b4601ae-6cd0-46dd-b616-083de5f0bde5" />
 
-Data dipilih pada tabel lalu tombol **Hapus** ditekan. Data dihapus dari database melalui `StudentRepository.Delete()`, baris hilang dari tabel, dan angka pada panel statistik ikut berkurang.
+Data Rina dipilih pada tabel lalu tombol **Hapus** ditekan. Data dihapus dari database melalui `StudentRepository.Delete()`, baris hilang dari tabel, dan angka pada panel statistik ikut berkurang.
 
 ### 7. Pencarian Data (SEARCH)
 
-![Pencarian](docs/screenshots/07-pencarian.png)
+<img width="1442" height="307" alt="image" src="https://github.com/user-attachments/assets/5c6267af-2c14-40f8-b66b-20a1733b7c84" />
 
 Kata kunci dimasukkan pada kolom pencarian, lalu tombol **Cari** ditekan. Aplikasi menjalankan query `LIKE` pada kolom NIM, Nama, dan Jurusan, sehingga tabel hanya menampilkan data yang sesuai. Jika kolom pencarian dikosongkan, seluruh data ditampilkan kembali.
 
 ### 8. Statistik Mahasiswa
 
-![Statistik](docs/screenshots/08-statistik.png)
+<img width="480" height="402" alt="image" src="https://github.com/user-attachments/assets/e60dd28a-e70b-4cc6-9545-9066c12dfd75" />
 
 Panel **Informasi** menampilkan Total Mahasiswa, jumlah Informatika, Sistem Informasi, Laki-laki, dan Perempuan. Angka ini dihitung dari koleksi data dan diperbarui otomatis setiap kali ada perubahan (tambah, ubah, hapus, atau cari) melalui `INotifyPropertyChanged`.
 
 ### 9. Reset Form
 
-![Reset](docs/screenshots/09-reset.png)
-
 Tombol **Reset** mengosongkan seluruh isi form sehingga siap digunakan untuk memasukkan data baru. Reset dilakukan dengan membuat objek `Student` baru pada `SelectedStudent`.
 
 ### 10. Validasi Input
-
-![Validasi](docs/screenshots/10-validasi.png)
 
 Jika tombol **Simpan** ditekan saat field wajib (NIM, Nama, Jurusan, Gender) masih kosong, aplikasi menampilkan pesan peringatan dan data tidak disimpan ke database.
 
 ### 11. Data Tersimpan di Database
 
-![Data di SQL Server](docs/screenshots/11-database.png)
+<img width="536" height="105" alt="image" src="https://github.com/user-attachments/assets/0bed2854-d634-4cf1-a252-97365a14bf09" />
 
 Hasil query `SELECT * FROM Students` pada SQL Server Object Explorer, membuktikan bahwa data yang ditambah, diubah, dan dihapus dari aplikasi benar-benar tersimpan di tabel `Students` pada database `StudentDB`.
 
@@ -96,19 +92,6 @@ StudentManager/
 ├── MainWindow.xaml
 └── MainWindow.xaml.cs
 ```
-
-## Database
-
-Database `StudentDB` memiliki satu tabel `Students`.
-
-| Kolom | Tipe | Keterangan |
-|---|---|---|
-| Id | INT IDENTITY | Primary key |
-| NIM | VARCHAR(20) | Wajib diisi |
-| Nama | VARCHAR(100) | Wajib diisi |
-| Jurusan | VARCHAR(100) | Wajib diisi |
-| Gender | VARCHAR(20) | Wajib diisi |
-| Email | VARCHAR(100) | Opsional |
 
 ## Penjelasan File
 
