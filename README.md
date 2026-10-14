@@ -20,9 +20,9 @@ Tampilan saat aplikasi pertama kali dijalankan. Data sampel dari tabel `Students
 
 ### 2. Form Input Data Mahasiswa
 
-![Form terisi](docs/screenshots/02-form-input.png)
+<img width="972" height="405" alt="image" src="https://github.com/user-attachments/assets/96592582-2c04-4f21-9f90-4a3b7c3e092b" />  
 
-Form diisi dengan data mahasiswa baru: NIM, Nama, Email (TextBox) serta Jurusan dan Gender (ComboBox). Setiap field terhubung ke objek `SelectedStudent` melalui Data Binding, sehingga isi form langsung tersimpan di properti ViewModel tanpa code-behind.
+Form diisi dengan data mahasiswa baru: NIM, Nama, Email (TextBox) serta Jurusan dan Gender (ComboBox). Setiap field terhubung ke objek `SelectedStudent` melalui Data Binding, sehingga isi form langsung tersimpan.
 
 ### 3. Berhasil Menambahkan Data (CREATE)
 
